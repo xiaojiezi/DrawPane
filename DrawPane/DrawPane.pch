@@ -1,0 +1,26 @@
+//
+//  DrawPane.pch
+//  DrawPane
+//
+//  Created by yangjie on 14-4-27.
+//  Copyright (c) 2014年 YJ. All rights reserved.
+//
+
+//#ifndef DrawPane_DrawPane_pch
+//#define DrawPane_DrawPane_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+
+#import "Common.h"
+
+#endif
+
